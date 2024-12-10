@@ -1,0 +1,77 @@
+
+/********* modal **********/
+.dialog-card {
+    background-color: $default-shade-90 !important;
+    border: 1px solid $grey-0 !important;
+    padding: 10px;
+    color: $grey-2-70;
+    backdrop-filter: blur(4px);
+    width: 30%;
+    left: 35%;
+    &:hover,
+    &:focus {
+        background-color: $primary-50;
+        transition:0.5s
+    }
+
+    .modal-header {
+        padding: 15px;
+        border-bottom: 1px solid $grey-0-80;
+    }
+
+    .modal-title {
+        color: $primary-80
+    }
+
+    .modal-content {
+        background-color: transparent;
+    }
+
+    label {
+        font-size: 18px;
+        
+    } 
+    input {
+        background-color: white;
+        width: 100%;
+    }
+    select {
+        background-color: white;
+    }
+
+    .submit-button {
+        background-color: $primary-50;
+        border: 1px solid $primary-80; 
+        color: white;
+        cursor: pointer;
+        width: 100%;
+        font-size:18px;
+        font-weight:normal;
+        transition: all 150ms ease-in-out;
+
+        &:hover,
+        &:focus {
+            border: 1px solid $primary;
+            color: white;
+            box-shadow: 0 0 40px 40px $primary-80 inset, 0 0 0 0 $primary-80;
+        }
+    }
+
+    .okay{
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 40px 40px $primary-80 inset, 0 0 0 0 $primary-80;
+        }
+    }
+
+    .cancle{
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 40px 40px $grey-0 inset, 0 0 0 0 $grey-0;
+            color: $grey-8;      
+            border-color: $grey-8; 
+        }
+    }
+}
+
+

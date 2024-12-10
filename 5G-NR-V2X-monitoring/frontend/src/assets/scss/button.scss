@@ -1,0 +1,55 @@
+
+/********* block **********/
+.btn-block-empty {
+    background-color: transparent;
+    border: 1px solid $primary-50;
+    color: $primary;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight:normal;
+    transition: all 150ms ease-in-out;
+
+    &:hover,
+    &:focus {
+        border-color: $primary-80;
+        color: white;
+        box-shadow: 0 0 40px 40px $primary-80 inset, 0 0 0 0 $primary-80;
+    }
+}
+
+/********* block **********/
+.btn-block-fill {
+    background-color: $primary-50;
+    border: 1px solid $primary-80; 
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2vh;
+    padding: 0.2vh;
+    font-weight:normal;
+    transition: all 150ms ease-in-out;
+
+    &:hover,
+    &:focus {
+        border: 1px solid $primary;
+        color: white;
+        box-shadow: 0 0 40px 40px $primary-80 inset, 0 0 0 0 $primary-80;
+    }
+}
+
+.btn-clear {
+    background-color: transparent;
+    border: 0px solid $primary-50;
+    color: $primary;
+    cursor: pointer;
+    width: 100%;
+    font-size:18px;
+    font-weight:normal;
+    transition: all 150ms ease-in-out;
+
+    &:hover,
+    &:focus {
+        color: $yellow;       
+    }
+}

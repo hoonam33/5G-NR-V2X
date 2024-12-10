@@ -1,0 +1,26 @@
+ /* 스크롤바 start */
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0f1c255e;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid #285a6f;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+    border: 2px solid yellow;
+}
+/* 스크롤바 end */

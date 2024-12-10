@@ -1,0 +1,67 @@
+/*****************기본 테이블*********************/
+.table-header {
+  color: $primary; 
+  font-size: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width:100%;
+  margin-top:3px;
+  background-color: rgba(19, 23, 24, 0.833);
+  border: 0px;
+}
+
+.table {
+    font-size: 17px;
+    border: 1px solid $primary-20;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0px;
+    border-spacing: 0px;
+
+    tr {	
+        color: rgba(238, 238, 238, 0.719) 
+    }
+    tr:hover {
+        background-color: $primary-50 !important; 
+        color: white
+    }    
+    .table-title {
+        vertical-align: middle;
+        color: $primary;
+        padding: 1.2vh 0vh;
+        background-color: $primary-10;
+        border-bottom: 1px solid $primary-30;
+    }
+    .table-sub-title {
+        background-color: #1e7188;
+        color: white;
+    }
+	th,
+	td {
+        padding: 1px;
+        vertical-align: middle;
+        border: 1px solid rgba(202, 206, 209, 0.048);
+        }
+}
+
+/*****************투명 테이블*********************/
+.table-clear {
+	width: 100%;
+	color: $primary; 
+	font-size: 14px;
+    padding: 0px;
+    tr:hover {background-color: $primary-50 !important; color: white}
+	}
+	.table-clear th,
+	.table-clear td {
+        padding: 0px;
+       
+        vertical-align: middle;
+        border: 1px solid $primary-50;
+        }
+
+
+/*****************가로선*********************/
+.horizontal-line {
+  border-top: 1px solid rgba(55, 137, 148, 0.486);
+}
